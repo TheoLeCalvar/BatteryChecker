@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F0E2B0358CEF4D448DD9004D6CE5AC75537AB4F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F0E2B0358CEF4D448DD9004D6CE5AC75537AB4F" : 9223372036854775807,
+    "77DE50AF5D10E2D6E99D8F3019AEEAA91F95667D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AACF58A0-757C-4888-A45E-6FD81AB1A7A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F0E2B0358CEF4D448DD9004D6CE5AC75537AB4F" : "BatteryChecker\/",
+    "77DE50AF5D10E2D6E99D8F3019AEEAA91F95667D" : "PopupTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Battery Checker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Battery Checker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:goldensuneur\/BatteryChecker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F0E2B0358CEF4D448DD9004D6CE5AC75537AB4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/taichino\/PopupTest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77DE50AF5D10E2D6E99D8F3019AEEAA91F95667D"
+    }
+  ]
+}

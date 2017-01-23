@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4178DD061E336F3E000B5836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4178DD051E336F3E000B5836 /* Images.xcassets */; };
+		B3A03A891AC7C44E00154AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A03A881AC7C44E00154AEB /* AppDelegate.swift */; };
+		B3A03A8E1AC7C44E00154AEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A03A8C1AC7C44E00154AEB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4178DD051E336F3E000B5836 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Battery Checker/Images.xcassets"; sourceTree = "<group>"; };
+		B3A03A831AC7C44E00154AEB /* Battery Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A03A871AC7C44E00154AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A03A881AC7C44E00154AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3A03A8D1AC7C44E00154AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A03A801AC7C44E00154AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A03A7A1AC7C44E00154AEB = {
+			isa = PBXGroup;
+			children = (
+				4178DD051E336F3E000B5836 /* Images.xcassets */,
+				B3A03A851AC7C44E00154AEB /* Battery Checker */,
+				B3A03A841AC7C44E00154AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A03A841AC7C44E00154AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A03A831AC7C44E00154AEB /* Battery Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A03A851AC7C44E00154AEB /* Battery Checker */ = {
+			isa = PBXGroup;
+			children = (
+				B3A03AAA1AC9000E00154AEB /* src */,
+				B3A03A861AC7C44E00154AEB /* Supporting Files */,
+			);
+			path = "Battery Checker";
+			sourceTree = "<group>";
+		};
+		B3A03A861AC7C44E00154AEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A03A8C1AC7C44E00154AEB /* MainMenu.xib */,
+				B3A03A871AC7C44E00154AEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A03AAA1AC9000E00154AEB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B3A03A881AC7C44E00154AEB /* AppDelegate.swift */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A03A821AC7C44E00154AEB /* Battery Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "Battery Checker" */;
+			buildPhases = (
+				B3A03A7F1AC7C44E00154AEB /* Sources */,
+				B3A03A801AC7C44E00154AEB /* Frameworks */,
+				B3A03A811AC7C44E00154AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battery Checker";
+			productName = PopupTest;
+			productReference = B3A03A831AC7C44E00154AEB /* Battery Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A03A7B1AC7C44E00154AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Théo Le Calvar";
+				TargetAttributes = {
+					B3A03A821AC7C44E00154AEB = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = G6S47ZSP4J;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B3A03A7E1AC7C44E00154AEB /* Build configuration list for PBXProject "Battery Checker" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A03A7A1AC7C44E00154AEB;
+			productRefGroup = B3A03A841AC7C44E00154AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A03A821AC7C44E00154AEB /* Battery Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A03A811AC7C44E00154AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A03A8E1AC7C44E00154AEB /* MainMenu.xib in Resources */,
+				4178DD061E336F3E000B5836 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A03A7F1AC7C44E00154AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A03A891AC7C44E00154AEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3A03A8C1AC7C44E00154AEB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A03A8D1AC7C44E00154AEB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3A03A9B1AC7C44E00154AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3A03A9C1AC7C44E00154AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B3A03A9E1AC7C44E00154AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G6S47ZSP4J;
+				INFOPLIST_FILE = "$(SRCROOT)/Battery Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.gdsn.batterychecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3A03A9F1AC7C44E00154AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G6S47ZSP4J;
+				INFOPLIST_FILE = "$(SRCROOT)/Battery Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.gdsn.batterychecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A03A7E1AC7C44E00154AEB /* Build configuration list for PBXProject "Battery Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A03A9B1AC7C44E00154AEB /* Debug */,
+				B3A03A9C1AC7C44E00154AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "Battery Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A03A9E1AC7C44E00154AEB /* Debug */,
+				B3A03A9F1AC7C44E00154AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A03A7B1AC7C44E00154AEB /* Project object */;
+}
