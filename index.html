@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Battery Checker 20m</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width,minimum-scale=1, maximum-scale=1, initial-scale=1" />
+    <meta name="author" content="Antoine Derouin" />
+    <meta name="description" content="DESCRIPTION" />
+    <style media="screen">
+
+      body{text-align:left;background:#fff;color:#000}sub,sup{vertical-align:inherit}blockquote,body,dd,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,ul{margin:0}legend,ol,td,th,ul{padding:0}address,b,cite,code,dfn,em,h1,h2,h3,h4,h5,h6,i,kbd,pre,samp,small,strong,sub,sup,th,var{font:inherit}caption,th{text-align:inherit}pre{white-space:inherit}mark{background:0 0}a,del,ins,s,u{text-decoration:none}ol,ul{list-style:none}q{quotes:none}a,mark{color:inherit}
+
+      *{
+        box-sizing: border-box;
+      }
+
+      main{
+        display: block;
+      }
+
+      body{
+        color: white;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-align: center;
+        padding: 6rem;
+        font-size: 23px;
+      }
+
+      body:before{
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: #69b970;
+        background: linear-gradient(45deg, #69b970, #cedd8a);
+        text-align: center;
+        padding: 6rem;
+      }
+
+      main{
+        max-width: 960px;
+        margin: auto;
+      }
+
+      h1{
+        font-size: 2.5em;
+      }
+
+      img{
+        margin: 2rem auto;
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .bouton{
+        border: solid 4px white;
+        padding: 1rem;
+        border-radius: 50em;
+        width: 400px;
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        text-transform: uppercase;
+        transition-duration: .25s
+      }
+
+      .bouton:hover{
+        color: #69b970;
+        background: white;
+      }
+
+      hr{
+        border: 0;
+        border-bottom: 1px white dashed;
+        margin: 2rem auto;
+      }
+
+      article{
+        text-align: left;
+      }
+
+      h2{
+        font-size: 1.5em;
+      }
+
+      p{
+        padding: .5em 1em;
+        line-height: 1.23;
+      }
+
+      small{
+        font-size: .75em;
+      }
+
+      pre{
+        padding: 0 2em .5em;
+        font-family: monospace;
+      }
+
+      ol{
+        list-style: decimal;
+      }
+
+      li{
+        margin-left: 1em;
+      }
+
+      li p{
+        padding-left: 0;
+      }
+
+      a:not(.bouton){
+        text-decoration: underline;
+      }
+      a:not(.bouton):hover{
+        text-decoration: none;
+      }
+
+      @media (max-width: 960px) {
+        body{
+          padding: 40px;
+          font-size: 5vw;
+        }
+        article img{
+          display: none;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <main>
+
+      <h1>Battery Checker</h1>
+      <img src="icone.png" alt="">
+      <a href="BatteryChecker.dmg" class="bouton">Télécharger</a>
+      <a href="https://github.com/goldensuneur/BatteryChecker" target="_blank"><small>Code source sur GitHub</small></a>
+
+      <hr />
+      <p>Battery Checker est un petit utilitaire pour MacBook qui affichera une notification quand votre batterie sera suffisamment rechargée pour vous avertir qu'il est temps de débrancher votre chargeur afin d'économiser de l'énergie !</p>
+      <hr />
+
+      <article>
+
+        <h2>Installation :</h2>
+
+        <ol>
+          <li>
+            <p><a href="BatteryChecker.dmg">Télécharger</a> et ouvrir « BatteryChecker.dmg »</p>
+          </li>
+          <li>
+            <p>Déplacer l'app « Battery Checker» dans le dossier « Applications »</p>
+          </li>
+          <li>
+            <p>Double cliquer sur l'app
+              <small>(rien de visuel n'indiquera son lancement)</small>
+            </p>
+          </li>
+          <li>
+            <p>Aller dans :</p>
+            <pre> > Préférences Système > Utilisateur et Groupes > Ouverture</pre>
+            <p>Cliquer sur le + pour ajouter l'application</p>
+            <img src="ouverture.png" alt="">
+          </li>
+          <li>
+            <p>Aller dans :</p>
+            <pre> > Préférences Système > Notifications</pre>
+            <p>Selectionner « Battery Checker »</p>
+            <p>Passer de « Bannière » à « Alerte »</p>
+            <p>Décocher « Afficher dans Centre de notifications » et « Pastille sur l'icône de l'app »</p>
+            <img src="alerte.png" alt="">
+          </li>
+          <li>
+            <p>C'est fini ! L'application se lancera au démarage et la notification restera visible pour être sûr de ne pas la louper !</p>
+          </li>
+
+        </ol>
+
+      </article>
+      <hr />
+
+      <small>Pensé par <a href="https://antoined.fr/" target="_blank">AntoineD</a> — Développé par <a href="https://github.com/goldensuneur/" target="_blank">Goldensuneur</a></small>
+
+    </main>
+
+  </body>
+</html>
