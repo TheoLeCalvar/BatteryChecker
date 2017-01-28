@@ -30,8 +30,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
                 if ((key as! String == kIOPSPowerSourceStateKey) && (val as! String == kIOPSACPowerValue)) {
                     Holder.shouldSendNotification = true;
                 }
-                else if ((key as! String == kIOPSIsFinishingChargeKey)) {
-                    if ((val as! Bool == true)) {
+                else if ((key as! String == kIOPSIsFinishingChargeKey) && (val as! Bool == true)) {
+                    if (Holder.shouldSendNotification) {
                         let note = NSUserNotification.init()
                         note.title = "Battery checker"
                         note.subtitle = "Battery is fully charged"
